@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+    color: #4a4a4a;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.logo span {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.profile img,
+.picture img {
+    border-radius: 50%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.contact img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(73, 90, 94, 0.7);
+}
